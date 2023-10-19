@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revise steps Php</title>
     <!-- CSS LINK -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <!-- FONTAWESOME LINK VERSION 6.4.2 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4345/4345551.png" type="image/x-icon">
 </head>
 <body>
-    <form action="./my_server.php" method='GET'>
+    <form action="./my_server.php" method='POST'>
         <h1>
             Insert your data to Sign In
         </h1>
