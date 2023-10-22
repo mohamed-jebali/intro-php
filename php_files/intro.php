@@ -18,7 +18,7 @@
         </h1>
         <input type="text" name="name" id="name" placeholder="Insert you're name"> <br>
         <input type="email" name="email" id="email" placeholder="Insert you're email"> <br>
-        <input type="number" name="age" id="age" placeholder="Insert you're email"> <br>
+        <input type="number" name="age" id="age" placeholder="Insert you're age"> <br>
         <input type="submit" value="send">
     </form>
 </body>

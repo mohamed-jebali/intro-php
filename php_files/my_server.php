@@ -57,9 +57,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Crea un nuovo record con i dati inviati
         $newRecord = [
-            'name' => $name,
-            'email' => $email,
-            'age' => $age,
+            'name' => trim($name),
+            'email' => trim($email),
+            'age' => trim($age),
         ];
 
         // Aggiungi il nuovo record ai dati esistenti
